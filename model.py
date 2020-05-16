@@ -13,8 +13,8 @@ import optuna
 from optuna.integration import lightgbm_tuner
 
 
-X_train=read_csv("X_train.csv")
-y_train=read_csv('y_train.csv')
+X_train=pd.read_csv("X_train.csv")
+y_train=pd.read_csv('y_train.csv')
 #X_test=read_csv('X_test.csv')
 
 dt_col = "date"
